@@ -131,17 +131,19 @@ body{
     margin-bottom: 30px;
     grid-column: 2 / 3;
     grid-row: 1 / 1;
-    align-self: self-start;
+    justify-self: center;
 }
 .circle_text_new_collecton{
-    width: 50%;
+    width: 60%;
     padding: 10px;
     border-radius: 10px;
     font-size: 10px;
+    font-weight: 900;
     overflow: hidden;
     grid-column: 3 / 3;
     grid-row: 1 / 1;
     align-self: center;
+    transform: rotateZ(30deg);
 }
 .text_patch{
     position: unset;
@@ -168,7 +170,8 @@ body{
     z-index: 1;
 }
 .description_patch{
-    margin: 0px 30px;
+    width: 70%;
+    margin: 30px;
     grid-column: 1 / -1;
     grid-row: 4 / 4;
     align-items: self-end;
