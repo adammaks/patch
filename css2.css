@@ -134,29 +134,24 @@ body{
 }
 .text_patch{
     position: unset;
-    font-size: 55px;
+    font-size: 45px;
     grid-column: 2 / -1;
-    grid-row: 2 / 3;
-    margin-top: 70px;
-    margin-left: 200px;
+    grid-row: 2 / 2;
     align-self: self-start;
 }
 .big_text{
-    font-size: 450px;
+    font-size: 300px;
     grid-column: 1 / -1;
     grid-row: 2 / 2;
     position: unset;
 }
 .background_big_text{
-    position: unset;
+    position: absolute;
     width: 100%;
     min-height: 100%;
-    margin-top: 150px;
     background: url(img/2.png) no-repeat top;
-    background-size: 38% auto;
+    background-size: 45% auto;
     z-index: 1;
-    grid-column: 1 / -1;
-    grid-row: 2 / 2;
 }
 .description_patch{
     margin: 0px 50px;
@@ -165,7 +160,11 @@ body{
     align-items: self-end;
 }
 .button_buy{
-    grid-column: 1 / 1;
+    width: 100%;
+    padding: 20px;
+    background: #324b8da6;
+    margin: 10px;
+    grid-column: 1 / -1;
     grid-row: 5 / 5;
     align-items: flex-end;
 }
@@ -173,9 +172,11 @@ body{
     display: none;
 }
 .button_inst{
-    grid-column: 3 / 3;
-    grid-row: 5 / 5;
-    margin-right: 30px;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    grid-column: 1 / -1;
+    grid-row: 6 / 6;
     align-items: flex-start;
 }
 }
