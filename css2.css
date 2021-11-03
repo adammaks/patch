@@ -19,7 +19,7 @@ body{
     color: #fff;
     font-family: text;
     background: url('img/background.jpg');
-    grid-template-columns: 2fr 10fr 2fr;
+    grid-template-columns: 4fr 10fr 2fr;
     grid-template-rows: 1fr 5fr 1fr;
     align-items: center;
     justify-items: center;
@@ -28,7 +28,7 @@ body{
 }
 .logo{
     width: 130px;
-    align-self: self-end;
+    justify-self: start;
     z-index: 3;
 }
 .text_patch{
@@ -43,11 +43,14 @@ body{
     grid-row: 1 / 1;
 }
 .description_patch{
+    width: 60%;
+    padding: 10px 0px 10px 20px;
+    border-left: 4px solid #fff;
     text-transform: uppercase;
     font-size: 13px;
     grid-column: 1 / 1;
     grid-row: 2 /2;
-    align-items: self-end;
+    justify-self: center;
 }
 .button_buy{
     border-radius: 10px;
@@ -61,6 +64,7 @@ body{
     text-decoration: none;
     grid-column: 1;
     grid-row: 3;
+    justify-self: start;
     z-index: 3;
 }
 .big_text{
