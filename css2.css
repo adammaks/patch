@@ -170,7 +170,6 @@ body{
 }
 .button_buy{
     padding: 25px;
-    background: #324b8da6;
     margin: 10px;
     grid-column: 1 / 1;
     grid-row: 5 / 5;
