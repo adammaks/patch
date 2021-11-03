@@ -100,7 +100,8 @@ body{
     border-radius: 10px;
     padding: 50px;
     text-align: center;
-    background: #324b8da6;
+    background: #324b8da6 url('img/logo.png') no-repeat center;
+    background-size: 120%;
     font-size: 20px;
     text-transform: uppercase;
     color: #fff;
