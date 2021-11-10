@@ -199,32 +199,45 @@ body{
 
 .content_block{
     background: #333;
+    margin: 30px 0px;
     display: grid;
     grid-template-columns: 2fr 3fr;
-    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
     align-items: center;
     justify-items: center;
 }
 .content_block_name{
     font-family: text;
+    text-transform: uppercase;
+    color: #fff;
     font-size: 40px;
     grid-column: 1 / 1;
     grid-row: 2 / 2;
 }
 .content_block_description{
+    margin-top: 100px;
+    font-family: text;
+    text-transform: uppercase;
+    color: #fff;
     grid-column: 1 / 1;
     grid-row: 2 / 2;
+    align-self: center;
 }
 .content_block_big_img{
+    width: 50%;
+    text-align: center;
+    background: #222;
     grid-column: 2 / 2;
     grid-row: 2 / 2;
+    align-items: center;
 }
 .content_block_big_img img{
     width: 400px;
 }
 .content_block_button{
-    width: 90%;
-    padding: 15px;
+    width: 50%;
+    margin-top: 10px;
+    padding: 15px 0px;
     text-align: center;
     font-family: text;
     font-size: 13px;
