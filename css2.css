@@ -201,7 +201,7 @@ body{
     background: #333;
     margin: 30px 0px;
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 2fr 0.1fr 2fr;
     grid-template-rows: 1fr 6fr 1fr;
     align-items: center;
     justify-items: center;
@@ -210,13 +210,14 @@ body{
     font-family: text;
     text-transform: uppercase;
     color: #fff;
-    font-size: 40px;
+    font-size: 80px;
     grid-column: 1 / 1;
     grid-row: 2 / 2;
 }
 .content_block_description{
     margin-top: 100px;
     font-family: text;
+    font-size: 40px;
     text-transform: uppercase;
     color: #fff;
     grid-column: 1 / 1;
@@ -224,25 +225,31 @@ body{
     align-self: center;
 }
 .content_block_line{
-    border: 50px solid #fff;
-    width: 50px;
+    border: 15px solid #fff;
     height: 100%;
+    grid-column: 2 / 2;
+    grid-row: 1 / -1;
 }
 .content_block_big_img{
-    width: 50%;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
     text-align: center;
     background: #222;
-    grid-column: 2 / 2;
+    display: grid;
+    grid-column: 3 / 3;
     grid-row: 2 / 2;
     align-items: center;
+    justify-items: center;
 }
 .content_block_big_img img{
-    width: 400px;
+    width: 60%;
+    vertical-align: center;
 }
 .content_block_button{
-    width: 50%;
+    border-radius: 50px;
     margin-top: 10px;
-    padding: 15px 0px;
+    padding: 15px;
     text-align: center;
     font-family: text;
     font-size: 13px;
@@ -250,7 +257,7 @@ body{
     text-transform: uppercase;
     color: #000;
     background: #fff;
-    grid-column: 2 / 2;
+    grid-column: 3 / 3;
     grid-row: 3 / 3;
-    align-self: start;
+    align-self: center;
 }
