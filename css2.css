@@ -223,6 +223,11 @@ body{
     grid-row: 2 / 2;
     align-self: center;
 }
+.content_block_line{
+    border: 50px solid #fff;
+    width: 50px;
+    height: 100%;
+}
 .content_block_big_img{
     width: 50%;
     text-align: center;
