@@ -206,23 +206,24 @@ body{
     align-items: center;
     justify-items: center;
 }
+.content_block_text{
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+    overflow: hidden;
+}
 .content_block_name{
+    margin: 0px;
     font-family: text;
     text-transform: uppercase;
     color: #fff;
     font-size: 80px;
-    grid-column: 1 / 1;
-    grid-row: 2 / 2;
 }
 .content_block_description{
-    margin-top: 100px;
+    margin: 0px;
     font-family: text;
     font-size: 40px;
     text-transform: uppercase;
     color: #fff;
-    grid-column: 1 / 1;
-    grid-row: 2 / 2;
-    align-self: center;
 }
 .content_block_line{
     border: 15px solid #fff;
