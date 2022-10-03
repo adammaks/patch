@@ -322,6 +322,37 @@ body{background: #ebebeb;}
     font-family: text2;
     color: #333;
 }
+.smartpohe_block{
+    width: 83%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.smartpohe_block video{
+    width: 400px;
+    height: 720px;
+}
+.smartpohe_block h3{
+    margin-bottom: 20px;
+    color: #333;
+    font-family: text;
+    font-size: 50px;
+    grid-column: 1 / 1;
+}
+.smartpohe_block h1{
+    color: #333;
+    font-family: text;
+    font-size: 40px;
+    grid-column: 1 / 1;
+}
+.block_iphone{
+    height: 750px;
+    padding-top: 40px;
+    padding-left: 35px;
+    background: url('img/iphone.png') no-repeat;
+    background-size: 470px 100%;
+}
 @media screen and (max-width: 1024px) {
     .about_patch{
         min-height: 50vh;
