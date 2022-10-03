@@ -994,6 +994,7 @@ footer ul li:hover{
 
 @media screen and (max-width: 524px) {
     .price_block{
+        width: 95%;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         align-items: center;
