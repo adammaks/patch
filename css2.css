@@ -324,7 +324,9 @@ body{background: #ebebeb;}
 }
 @media screen and (max-width: 1024px) {
     .about_patch{
-    min-height: 50vh;
+        min-height: 50vh;
+        margin-top: -1px;
+        padding-top: 10px;
     }
     .block_about{
         width: 100%;
@@ -451,12 +453,12 @@ body{background: #ebebeb;}
     position: absolute;
 }
 .block_photo{
-    height: 350px;
+    height: 500px;
     margin: 2px;
     border-radius: 20px;
     background: url('img/photo1.jpeg') no-repeat;
     background-size: cover;
-    background-position: 0% 30%;
+    background-position: 80% 30%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -470,37 +472,37 @@ body{background: #ebebeb;}
 .block_photo2{
     background: url('img/photo2.jpeg') no-repeat;
     background-size: cover;
-    background-position: 0% 30%;
+    background-position: 80% 30%;
 }
 .block_photo3{
     background: url('img/photo3.jpeg') no-repeat;
     background-size: cover;
-    background-position: 0% 30%;
+    background-position: 50% 30%;
 }
 .block_photo4{
     background: url('img/photo4.jpg') no-repeat;
     background-size: cover;
-    background-position: 0% 30%;
+    background-position: 50% 30%;
 }
 .block_photo5{
     background: url('img/photo4.jpg') no-repeat;
     background-size: cover;
-    background-position: 0% 30%;
+    background-position: 50% 30%;
 }
 .block_photo6{
     background: url('img/photo3.jpeg') no-repeat;
     background-size: cover;
-    background-position: 0% 30%;
+    background-position: 60% 30%;
 }
 .block_photo7{
     background: url('img/photo2.jpeg') no-repeat;
     background-size: cover;
-    background-position: 0% 30%;
+    background-position: 80% 30%;
 }
 .block_photo8{
     background: url('img/photo1.jpeg') no-repeat;
     background-size: cover;
-    background-position: 0% 30%;
+    background-position: 50% 0%;
 }
 .defis_photo{
     background: #fff;
@@ -995,7 +997,7 @@ footer ul li:hover{
 
 @media screen and (max-width: 524px) {
     .price_block{
-        width: 95%;
+        width: 98%;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         align-items: center;
