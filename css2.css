@@ -368,15 +368,15 @@ body{background: #ebebeb;}
     transition: 0.7s;
 }
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
 }
 .content_double_two{
     width: 100%;
@@ -730,7 +730,7 @@ body{background: #ebebeb;}
 }
 .big_block_price{
     border-radius: 10px;
-    height: 610px;
+    height: 750px;
     background: url('img/photo2.jpeg') no-repeat;
     background-size: cover;
     background-position: 0% 20%;
@@ -875,11 +875,12 @@ body{background: #ebebeb;}
     overflow: hidden;
 }
 .mini_block_price1{
-    height: 610px;
+    height: 750px;
     grid-column: 2 / 2;
     grid-row: 1 / -2;
 }
 .mini_block_price2{
+    height: 370px;
     grid-column: 3 / 3;
     grid-row: 1 / 1;
     align-self: start;
@@ -888,6 +889,7 @@ body{background: #ebebeb;}
     background-position: 0% 30%;
 }
 .mini_block_price3{
+    height: 370px;
     grid-column: 3 / 3;
     grid-row: 1 / 1;
     align-self: end;
