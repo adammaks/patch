@@ -329,6 +329,14 @@ body{background: #ebebeb;}
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
+.block_iphone{
+    height: 750px;
+    padding-top: 40px;
+    padding-left: 35px;
+    background: url('img/iphone.png') no-repeat;
+    background-size: 470px 100%;\
+    grid-column: 1 / -1;
+}
 .smartpohe_block video{
     width: 400px;
     height: 720px;
@@ -345,13 +353,6 @@ body{background: #ebebeb;}
     font-family: text;
     font-size: 40px;
     grid-column: 1 / 1;
-}
-.block_iphone{
-    height: 750px;
-    padding-top: 40px;
-    padding-left: 35px;
-    background: url('img/iphone.png') no-repeat;
-    background-size: 470px 100%;
 }
 @media screen and (max-width: 1024px) {
     .about_patch{
