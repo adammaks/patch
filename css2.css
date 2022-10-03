@@ -449,7 +449,7 @@ body{background: #ebebeb;}
     position: absolute;
 }
 .block_photo{
-    height: 450px;
+    height: 350px;
     margin: 2px;
     border-radius: 0px;
     background: url('img/photo1.jpeg') no-repeat;
@@ -714,6 +714,8 @@ body{background: #ebebeb;}
 }
 
 .price_block{
+    width: 83%;
+    margin: 0px auto;
     background: #ebebeb;
     padding: 5px;
     display: grid;
