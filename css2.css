@@ -449,7 +449,7 @@ body{background: #ebebeb;}
     position: absolute;
 }
 .block_photo{
-    height: 350px;
+    height: 450px;
     margin: 2px;
     border-radius: 0px;
     background: url('img/photo1.jpeg') no-repeat;
