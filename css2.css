@@ -1068,13 +1068,14 @@ footer ul li:hover{
 @media screen and (max-width: 1024px) {
     .about_brand{
         grid-template-columns: 1fr;
-        grid-template-rows: 2fr 1fr 1.5fr;
+        grid-template-rows: 1fr;
     }
     .about_brand_one_block{
         grid-column: 1 / 1;
         grid-row: 3 / 3;
     }
     .description_detalis_about{
+        margin: 10px 0px;
         width: 100%;
     }
     .about_brand_one_block a{
@@ -1093,6 +1094,7 @@ footer ul li:hover{
     }
     .about_brand_three_block h1{
         font-size: 55px;
+        text-align: center;
     }
     .price_block{
         grid-template-columns: 1fr 1fr;
