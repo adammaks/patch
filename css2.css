@@ -297,7 +297,7 @@ body{background: #ebebeb;}
     }
 }
 .about_patch{
-    margin: 50px auto;
+    margin: 130px auto;
     min-height: 400px;
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
@@ -442,7 +442,7 @@ background-position: 0% 50%;
     position: absolute;
 }
 .name_content_photo{
-    margin: 70px auto;
+    margin: 100px auto;
     text-align: center;
     font-size: 60px;
     font-family: text;
