@@ -392,6 +392,10 @@ background-position: 100% 50%;
 background-position: 0% 50%;
 }
 }
+.content_double_one .url_content{
+    margin-bottom: 50px;
+    align-self: end;
+}
 .content_double_two{
     width: 100%;
     height: 100%;
@@ -620,6 +624,10 @@ background-position: 0% 50%;
         grid-template-columns: 1fr 10fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-row: 1 / 1;
+    }
+    .content_double_one .url_content{
+        margin-bottom: 10px;
+        align-self: end;
     }
     .content_double_one_name{
         width: 100%;
