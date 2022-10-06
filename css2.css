@@ -340,8 +340,7 @@ body{background: #ebebeb;}
 @media screen and (max-width: 1024px) {
     .about_patch{
         min-height: 50vh;
-        margin-top: -1px;
-        padding-top: 10px;
+        margin: 20px 0px;
     }
     .block_about{
         width: 100%;
@@ -710,7 +709,7 @@ background-position: 0% 50%;
     }
     .name_content_photo{
         width: 90%;
-        margin-top: 70px;
+        margin: 40px auto;
         font-size: 28px;
     }
     .block_photo{
