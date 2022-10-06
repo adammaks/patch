@@ -467,6 +467,79 @@ background-position: 0% 50%;
     letter-spacing: 5px;
     word-break: break-all;
 }
+.about_brand{
+    width: 80%;
+    height: 800px;
+    margin: 0px auto 100px auto;
+    background: #ebebeb;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-size: 17px;
+    font-family: text2;
+    color: #333;
+}
+.about_brand_one_block{
+    grid-column: 1 / 1;
+    display: grid;
+}
+.about_brand_one_block h3{
+    font-size: 25px;
+    font-family: text;
+    color: #333;
+    text-transform: uppercase;
+}
+.description_detalis_about{
+    width: 85%;
+}
+.name_des_about{
+    font-family: text;
+}
+.about_brand_one_block a{
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-self: center;
+    justify-self: center;
+    transition: 0.7s;
+}
+.about_brand_one_block a:hover{
+    background: #333;
+    color: #fff;
+}
+.about_brand_two_block{
+    grid-column: 2 / 2;
+    background: url('img/photo4.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+    transition: 0.7s;
+}
+.about_brand_two_block:hover{
+    filter: grayscale(0%);
+}
+.about_brand_three_block{
+    grid-column: 3 / 3;
+    display: grid;
+    text-align: right;
+}
+.about_brand_three_block h1{
+    text-transform: uppercase;
+    font-family: text;
+    font-size: 80px;
+    color: #333;
+}
+.about_brand_three_block p{
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    text-align: center;
+    align-self: end;
+}
 .content_photo{
     width: 83%;
     background: #ebebeb;
