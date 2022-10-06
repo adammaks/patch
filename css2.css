@@ -469,7 +469,7 @@ background-position: 0% 50%;
 }
 .about_brand{
     width: 80%;
-    height: 800px;
+    min-height: 800px;
     margin: 0px auto 100px auto;
     background: #ebebeb;
     display: grid;
@@ -1066,6 +1066,34 @@ footer ul li:hover{
     transition: 0.7s;
 }
 @media screen and (max-width: 1024px) {
+    .about_brand{
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr 1.5fr;
+    }
+    .about_brand_one_block{
+        grid-column: 1 / 1;
+        grid-row: 3 / 3;
+    }
+    .description_detalis_about{
+        width: 100%;
+    }
+    .about_brand_one_block a{
+        margin-top: 20px;
+    }
+    .about_brand_two_block{
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+        height: 500px;
+        background-position: 0% 40%;
+    }
+    .about_brand_three_block{
+        grid-column: 1 / 1;
+        grid-row: 2 / 2;
+        margin-bottom: 20px;
+    }
+    .about_brand_three_block h1{
+        font-size: 55px;
+    }
     .price_block{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
