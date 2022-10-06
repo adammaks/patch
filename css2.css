@@ -474,7 +474,7 @@ background-position: 0% 50%;
     background: #ebebeb;
     display: grid;
     gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
     grid-template-rows: 1fr;
     font-size: 17px;
     font-family: text2;
@@ -1067,6 +1067,7 @@ footer ul li:hover{
 }
 @media screen and (max-width: 1024px) {
     .about_brand{
+        width: 90%;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
