@@ -744,7 +744,7 @@ background-position: 0% 50%;
     cursor: default;
 }
 .big_block_price{
-    border-radius: 10px;
+    border-radius: 10px 0px 0px 10px;
     height: 750px;
     background: url('img/photo2.jpeg') no-repeat;
     background-size: cover;
@@ -844,7 +844,7 @@ background-position: 0% 50%;
     grid-row: 3 / 3;
 }
 .mini_block_price{
-    border-radius: 10px;
+    border-radius: 0px;
     height: 300px;
     background: url('img/photo3.jpeg') no-repeat center;
     background-size: cover;
@@ -895,22 +895,24 @@ background-position: 0% 50%;
     grid-row: 1 / -2;
 }
 .mini_block_price2{
+    border-radius: 0px 10px 10px 0px;
     height: 370px;
     grid-column: 3 / 3;
     grid-row: 1 / 1;
     align-self: start;
     background: url(img/photo4.jpg) no-repeat center;
     background-size: cover;
-    background-position: 0% 60%;
+    background-position: 0% 70%;
 }
 .mini_block_price3{
+    border-radius: 0px 10px 10px 0px;
     height: 370px;
     grid-column: 3 / 3;
     grid-row: 1 / 1;
     align-self: end;
     background: url(img/photo4.jpg) no-repeat;
     background-size: cover;
-    background-position: 0% 60%;
+    background-position: 0% 70%;
 }
 footer{
     background: #ebebeb;
@@ -1021,6 +1023,7 @@ footer ul li:hover{
         justify-items: center;
     }
     .big_block_price{
+        border-radius: 10px;
         width: 90%;
         height: 500px;
         grid-column: 1 / 1;
@@ -1034,6 +1037,7 @@ footer ul li:hover{
         text-align: justify;
     }
     .mini_block_price{
+        border-radius: 10px;
         width: 90%;
         height: 500px;
         margin-top: 15px;
@@ -1041,10 +1045,12 @@ footer ul li:hover{
         grid-row: 2 / 2;
     }
     .mini_block_price2{
+        border-radius: 10px;
         grid-column: 1 / 1;
         grid-row: 3 / 3;
     }
     .mini_block_price3{
+        border-radius: 10px;
         grid-column: 1 / 1;
         grid-row: 4 / 4;
     }
