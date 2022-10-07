@@ -521,13 +521,6 @@ background-position: 0% 50%;
     background-position: center;
     transition: 0.7s;
 }
-.about_brand_two_block:hover{
-    background: url('img/logo3.png') no-repeat;
-    background-size: 25%;
-    background-position: center;
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 0.7s; /* don't forget to set a duration! */
-}
 .about_brand_three_block{
     grid-column: 3 / 3;
     display: grid;
