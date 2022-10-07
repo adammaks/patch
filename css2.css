@@ -502,6 +502,7 @@ background-position: 0% 50%;
     padding: 10px;
     border: 1px solid #333;
     text-align: center;
+    font-size: 14px;
     color: #333;
     text-transform: uppercase;
     text-decoration: none;
@@ -518,11 +519,14 @@ background-position: 0% 50%;
     background: url('img/photo4.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    filter: grayscale(100%);
     transition: 0.7s;
 }
 .about_brand_two_block:hover{
-    filter: grayscale(0%);
+    background: url('img/logo3.png') no-repeat;
+    background-size: 25%;
+    background-position: center;
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 0.7s; /* don't forget to set a duration! */
 }
 .about_brand_three_block{
     grid-column: 3 / 3;
@@ -538,7 +542,7 @@ background-position: 0% 50%;
 .about_brand_three_block p{
     border-top: 1px solid #333;
     padding-top: 20px;
-    text-align: center;
+    text-align: left;
     align-self: end;
 }
 .content_photo{
@@ -570,7 +574,7 @@ background-position: 0% 50%;
     transition: 0.7s;
     grid-row: 2 / 2;
     -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    filter: grayscale(50%);
     position: relative;
 }
 .block_photo2{
