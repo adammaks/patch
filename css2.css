@@ -531,6 +531,7 @@ background-position: 0% 50%;
     font-family: text;
     font-size: 80px;
     color: #333;
+    text-shadow: 3px 5px 3px #999;
 }
 .about_brand_three_block p{
     border-top: 1px solid #333;
