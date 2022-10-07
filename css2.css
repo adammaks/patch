@@ -479,6 +479,7 @@ background-position: 0% 50%;
     font-size: 17px;
     font-family: text2;
     color: #333;
+    cursor: default;
 }
 .about_brand_one_block{
     grid-column: 1 / 1;
