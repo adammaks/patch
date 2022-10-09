@@ -1095,6 +1095,9 @@ footer ul li:hover{
         font-size: 55px;
         text-align: center;
     }
+    .about_brand_three_block p{
+        border-top: 0px solid #333;
+    }
     .price_block{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
