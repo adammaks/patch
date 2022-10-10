@@ -515,12 +515,26 @@ background-position: 0% 50%;
     color: #fff;
 }
 .about_brand_two_block{
+    border-radius: 20px;
     grid-column: 2 / 2;
-    background: url('img/photo4.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
+    align-self: center;
+    display: grid;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    transition: 0.7s;
+    overflow: hidden;
+}
+.about_brand_two_block img{
+    max-width: 100%;
     transition: 0.7s;
 }
+.img_about_one{grid-column: 1 / -3;grid-row: 1 / -2;}
+.img_about_two{grid-column: 3 / -1;grid-row: 1 / -2;}
+.img_about_three{grid-column: 1 / -3;grid-row: 3 / 4;}
+.img_about_four{grid-column: 3 / -1;grid-row: 3 / 4;}
+
 .about_brand_three_block{
     grid-column: 3 / 3;
     display: grid;
