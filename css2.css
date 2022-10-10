@@ -529,6 +529,7 @@ background-position: 0% 50%;
 .about_brand_two_block img{
     max-width: 100%;
     transition: 0.7s;
+    object-fit: cover;
 }
 .img_about_one{grid-column: 1 / 1;grid-row: 1 / 1;}
 .img_about_two{grid-column: 2 / 2;grid-row: 1 / 1;}
