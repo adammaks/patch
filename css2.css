@@ -458,9 +458,9 @@ background-position: 0% 50%;
     position: absolute;
 }
 .name_content_photo{
-    margin: 100px auto;
+    margin: 20px auto;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     font-family: text;
     text-transform: uppercase;
     color: #333;
@@ -1080,7 +1080,7 @@ footer ul li:hover{
     .about_brand{
         width: 90%;
         margin-bottom: 30px;
-        padding-top: 60px;
+        padding-top: 10px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
