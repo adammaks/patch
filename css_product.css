@@ -1,0 +1,214 @@
+.head_back{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+.head_back a{
+    padding: 0px;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: text2;
+    font-size: 15px;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    justify-self: start;
+}
+.head_back_logo{
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: text;
+    font-size: 20px;
+    grid-column: 1 / -1;
+    grid-row: 1 / 1;
+}
+.block_product{
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 130px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr;
+    gap: 40px;
+}
+.product_left{
+    grid-column: 1 / 1;
+}
+.container_product_galerey{
+    overflow: hidden;
+    position: relative;
+}
+.product_galerey{
+    width: 100%;
+    position: relative;
+    display: flex;
+    transition: 0.85s;
+}
+.product_galerey img{
+    width: 100%;
+}
+.galerey_back{
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.78);
+    top: 50%;
+    left: 20px;
+    position: absolute;
+    z-index: 5;
+}
+.galerey_next{
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.78);
+    top: 50%;
+    right: 20px;
+    position:  absolute;
+    z-index: 5;
+}
+.product_right{
+    grid-column: 2 / 2;
+    font-size: 16px;
+    font-family: text2;
+    
+}
+.product_right h1{
+    font-family: text;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.product_price{
+    margin: 10px 0px;
+    font-family: text;
+}
+.block_select_center{
+    margin: 10px 0px;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+.product_right select{
+    padding-left: 10px;
+    width: 200px;
+    height: 35px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background: #fff;
+    color: #333;
+    cursor: pointer;
+    appearance: none;
+}
+.in_cart{
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    background: #000;
+    border: 0px;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.wishlist{
+    width: 35px;
+    height: 35px;
+    border: 0px;
+    border-radius: 10px;
+    background: #fff;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.wishlist img{
+    width: 60%;
+    position: absolute;
+    top: 22.5%;
+    left: 20%;
+}
+.wishlist img.img_active{
+    width: 60%;
+    position: absolute;
+    top: 22.5%;
+    left: 20%;
+    display: none;
+}
+.wishlist img.img_dont_active:active{
+    width: 60%;
+    position: absolute;
+    top: 22.5%;
+    left: 20%;
+    display: none;
+}
+.wishlist:active img.img_active{
+    width: 60%;
+    position: absolute;
+    top: 22.5%;
+    left: 20%;
+    display: block;
+}
+.product_description{
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .block_product{
+        width: 90%;
+        margin: 0px auto;
+        padding: 50px 0px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr;
+        overflow: hidden;
+    }
+    .product_left{
+        margin: 0px;
+        padding: 0px;
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+    }
+    .container_product_galerey{
+        margin: 0px auto;
+        border-radius: 10px;
+    }
+    .galerey_back , .galerey_next{
+        top: 85%;
+    }
+    .product_right{
+        margin: 0px;
+        padding: 0px;
+        grid-column: 1 / 1;
+        grid-row: 2 / 2;
+        overflow: hidden;
+    }
+    .product_right h1{
+        text-align: center;
+    }
+    .block_select_center{
+        width: 100%;
+        grid-template-columns: 85% 10%;
+        grid-template-rows: 1fr 1fr;
+    }
+    .block_select_center select{
+        width: 100%;
+        grid-column: 1 / -1;
+        grid-row: 1 / 1;
+    }
+    .block_select_center .in_cart{
+        width: 100%;
+        grid-column: 1 / 1;
+        grid-row: 2 / 2;
+    }
+    .block_select_center .wishlist{
+        grid-column: 2 / 2;
+        grid-row: 2 / 2;
+        justify-self: end;
+    }
+}
